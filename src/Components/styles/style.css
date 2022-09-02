@@ -1,0 +1,87 @@
+body{
+    background-color: #fff;
+}
+.Nav-Item{
+    height:5vh;
+    width: 90%;
+    margin:auto;
+    text-align: left;
+    padding-left:50px;
+    padding-top:15px;
+    color:#fff;
+    transition:0.5s;
+    margin-bottom:5px;
+}
+.Nav-Item:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition:0.5s;
+    background-color:navy;
+    border-radius:5px;
+}
+@media screen and (max-width:1000px){
+    .Nav-Item{
+        width:70vw;
+    }
+}
+.button{
+    background-color: navy;
+    height:60px;
+    width:80%;
+    margin-bottom:10px;
+    padding:5px;
+    border-radius:5px;
+    color:#fff;
+    transition:0.5s;
+}
+.button:hover{
+    width:90%;
+    transition:0.5s;
+}
+.list{
+    padding-bottom:10vh;
+}
+.list-con{
+    background-color:blue;
+    height:100vh;
+    padding-top:10vh;
+
+}
+
+
+
+.Full-nav{
+    width:100vw;
+    background-color:blue;
+    display: flex;
+    flex-direction:row;
+    align-items: space-between;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.Full-nav .Logo{
+    border-radius: 5px;
+    overflow:hidden;
+    margin-left:5vw;
+}
+.Full-nav .close {
+    margin-left:60vw;
+}
+@media screen and (min-width:1000px){
+    .Full-nav .close {
+        margin-left:85vw;
+    }
+}
+.Card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom: 30px;
+    width:90%;
+}
+
+@media screen and (max-width:1600px){
+    .Card{
+        width:140%;
+        margin-left:-20%;
+    }
+}

@@ -28,7 +28,7 @@ function Boxes(props) {
         console.log(quantity)
     }
   return (
-      <div className='flex w-full lg:w-3/5 pt-24 h-fit lg:ml-72 bg-gray-100 flex-col justify-start items-center'>
+      <div className='Wrap'>
           <div className='w-11/12 py-2 bg-white shadow-xl flex flex-col justify-center items-center rounded-lg border border-white '>
               <h2>BOX SALES</h2>
               <hr className='w-4/5 text-white h-2' />

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import "./styles/style.css"
 
 function Payment() {
 
@@ -41,7 +42,7 @@ function Payment() {
     }
 
   return (
-      <div className='flex w-full lg:w-3/5 pt-24 h-fit lg:ml-72 bg-gray-100 flex-col justify-start items-center'>
+      <div className=' Move'>
         <div className='w-11/12 bg-white px-2 py-2 shadow-xl flex flex-col justify-start items-center rounded-lg border border-white '>
             <h2>Payment Method</h2>
             <hr className='w-full text-white h-2' />

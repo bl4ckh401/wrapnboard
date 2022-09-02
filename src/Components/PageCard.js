@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import "./styles/style.css"
 
 function PageCard(props) {
     const navigate = useNavigate()
@@ -9,7 +10,7 @@ function PageCard(props) {
     }
     return (
         <div className='w-fit flex flex-col'>
-            <div className='w-52 h-52 border-blue-500 rounded-2xl border co m-5' onClick={handleClick}>
+            <div className='Card' onClick={handleClick}>
                 <div className='flex items-center justify-center w-full'>
                     {props.icon}
                 </div>

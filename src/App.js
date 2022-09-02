@@ -33,7 +33,7 @@ function App() {
   }
 
   return (
-    <div className='relative w-screen top-0 left-0 bg-gray-100 min-h-screen'>
+    <div className=''>
       <Router>
         <Navigation active={active} onClick={handleNav} />
         <div className='w-full flex flex-col lg:flex-row'>
